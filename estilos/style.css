@@ -8,9 +8,9 @@
  roxo opaco: #3B4275
  cor papelão: #4A4432 */
 
-   @font-face {
+ @font-face {
       font-family: 'ice';
-      src: url('/fonts/IceCaps.ttf');
+      src: url('/fonts/IceCaps.ttf') format(true-tipe);
       font-weight: normal;
       font-style: normal;
    }
@@ -28,7 +28,7 @@
  header {
     background-image: url('/imagens/img.jpg');
     background-position: center;
-    font-family: ice;
+    font-family:'ice';
     height: 200px;
     padding-top: 3vh;
     text-align: center;
@@ -43,13 +43,13 @@
  }
 
  @media (max-width: 760px) {
-   header h1 {
-      font-size: 8em;
-      padding-top: 3vh;
+ header h1 {
+   font-size: 8em;
+   padding-top: 3vh;
    }
  }
 
- @media (max-width: 615px) {
+ @media  (max-width: 615px) {
    header h1 {
       font-size: 6em;
       padding-top: 3vh;
